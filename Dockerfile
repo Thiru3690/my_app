@@ -4,4 +4,4 @@ RUN mv webapps.dist webapps
 EXPOSE 8080
 RUN rm -rf /usr/local/tomcat/conf/tomcat-users.xml
 COPY tomcat-users.xml /usr/local/tomcat/conf/tomcat-users.xml
-COPY ./target/my-app.war /usr/local/tomcat/webapps
+COPY $WORKSPACE/my_app/target/my-app.war /usr/local/tomcat/webapps
