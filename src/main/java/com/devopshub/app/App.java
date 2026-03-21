@@ -1,10 +1,10 @@
 package com.devopshub.app;
 
 /**
- * I have edited this document to verify pollscm build schedule.
+ * Hello world
  */
 public class App {
     public static void main(String[] args) {
-        System.out.println("Hello World!");
+        System.out.println("Hello World! Welcome to Thirus DevOps Journey");
     }
 }
